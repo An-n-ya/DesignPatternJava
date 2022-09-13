@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eea8b65-f577-4523-a9bb-e5277b5c81bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bridge/CountDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Display.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/DisplayImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/StringDisplayImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Balking/ChangerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Balking/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Balking/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Balking/SaverThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Balking/out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/GuardedSuspension/ClientThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/GuardedSuspension/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/GuardedSuspension/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/GuardedSuspension/RequestQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/GuardedSuspension/ServeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Immutable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Immutable/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/Immutable/PrintPersonThred.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/ProducerConsumer/EaterThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/ProducerConsumer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/ProducerConsumer/MakerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/ProducerConsumer/Table.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/SingleThreadedExecution/Gate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/SingleThreadedExecution/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConcurrencyDesignPattern/SingleThreadedExecution/UserThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,26 +58,27 @@
     <option name="autoscrollToSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "jdk.selected.JAVA_MODULE": "17",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -74,13 +90,13 @@
       <recent name="Iterator.book" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Bridge.Main">
-    <configuration name="Bridge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bridge.Main" />
+  <component name="RunManager" selected="Application.ConcurrencyDesignPattern.ProducerConsumer.Main">
+    <configuration name="ConcurrencyDesignPattern.Balking.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyDesignPattern.Balking.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Bridge.*" />
+          <option name="PATTERN" value="ConcurrencyDesignPattern.Balking.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory.Main" />
+    <configuration name="ConcurrencyDesignPattern.GuardedSuspension.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyDesignPattern.GuardedSuspension.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory.*" />
+          <option name="PATTERN" value="ConcurrencyDesignPattern.GuardedSuspension.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcurrencyDesignPattern.ProducerConsumer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyDesignPattern.ProducerConsumer.Main" />
+      <module name="DesignPattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ConcurrencyDesignPattern.ProducerConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,11 +131,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Template.Main" />
+      <option name="MAIN_CLASS_NAME" value="ConcurrencyDesignPattern.Immutable.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Template.*" />
+          <option name="PATTERN" value="ConcurrencyDesignPattern.Immutable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,42 +143,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prototype.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prototype.Main" />
+    <configuration name="SingleThreadedExecution.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingleThreadedExecution.Main" />
       <module name="DesignPattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prototype.*" />
+          <option name="PATTERN" value="SingleThreadedExecution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingletonTest.getInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignPattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Singleton" />
-      <option name="MAIN_CLASS_NAME" value="Singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="getInstance" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bridge.Main" />
-        <item itemvalue="Application.Prototype.Main" />
-        <item itemvalue="JUnit.SingletonTest.getInstance" />
-        <item itemvalue="Application.Factory.Main" />
+        <item itemvalue="Application.ConcurrencyDesignPattern.ProducerConsumer.Main" />
+        <item itemvalue="Application.ConcurrencyDesignPattern.Balking.Main" />
+        <item itemvalue="Application.ConcurrencyDesignPattern.GuardedSuspension.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.SingleThreadedExecution.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +177,10 @@
       <workItem from="1662531569880" duration="1113000" />
       <workItem from="1662532696996" duration="6432000" />
       <workItem from="1662562188334" duration="4843000" />
-      <workItem from="1662793303061" duration="1166000" />
+      <workItem from="1662793303061" duration="1957000" />
+      <workItem from="1662879477665" duration="1179000" />
+      <workItem from="1662964265562" duration="4693000" />
+      <workItem from="1663049526152" duration="3175000" />
     </task>
     <servers />
   </component>
@@ -181,6 +197,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
